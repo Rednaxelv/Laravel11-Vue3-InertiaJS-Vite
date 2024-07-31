@@ -15,7 +15,7 @@
       <slot></slot>
     </main>
     <footer>
-      Este es el footer
+      Este es el footer editado
     </footer>
   </div>
 </template>
