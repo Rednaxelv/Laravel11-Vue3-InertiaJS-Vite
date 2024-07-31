@@ -1,12 +1,15 @@
 <template>
+  <!-- /resources/js/components/Layout2.vue -->
   <div>
     <header>
       <nav>
         <ul>
-          <li><Link href="/inicio">Inicio</Link></li>
-          <li><Link href="/contacto">Contacto</Link></li>
+          <li><a href="/inicio">Inicio</a></li>
+          <li><a href="/contacto">Contacto</a></li>
         </ul>
       </nav>
+
+      <h1>Estas en el layout 2</h1>
     </header>
     <main>
       <slot></slot>
@@ -19,6 +22,6 @@
 
 <script>
 export default {
-  name: 'Layout'
+  name: 'Layout2'
 }
 </script>
